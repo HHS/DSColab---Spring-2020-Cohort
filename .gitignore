@@ -1,0 +1,34 @@
+
+# History logs #
+################
+*.Rhistory
+
+# Other environment snapshot files #
+####################################
+*.DS_Store
+
+
+
+# MD #
+####################################
+/slides/**/*.md
+/slides/**/*.MD
+
+# day* folders with all files #
+####################################
+/slides/day*/*
+/slides/week*/*
+/slides/sample*/*
+
+
+# all notebook checkpoints
+####################################
+.ipynb_checkpoints/*
+*/**/.ipynb_checkpoints/*
+
+# all generated figures
+####################################
+/slildes/*-figure*/*
+/slildes/*_figure*/*
+/slildes/*-files*/*
+/slildes/*_files*/*
