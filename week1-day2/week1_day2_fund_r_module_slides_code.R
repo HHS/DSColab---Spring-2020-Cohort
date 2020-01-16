@@ -476,7 +476,7 @@ sample_df2
 
 
 #=================================================-
-#### Slide 36: Data frames: row and column names of a matrix   ####
+#### Slide 36: Data frames: row and column names of a data frame  ####
 
 # Check attributes of a data frame.
 attributes(sample_df1)
@@ -881,17 +881,6 @@ PrintHello = function(){ #<- declare function
 # Invoke function by calling `PrintHello()`.
 PrintHello()
 
-# Make function that returns the first few
-# digits of `pi` and assign to `GetPi` variable.
-
-GetPi = function(){      #<- declare function
-  pi_num = 3.14159265359 #<- compute value
-  return(pi_num)         #<- return value
-}
-
-# Invoke function by calling `GetPi()`.
-GetPi()
-
 
 
 #=================================================-
@@ -928,7 +917,7 @@ GetPi(3)
 
 
 #=================================================-
-#### Slide 102: Functions in R  ####
+#### Slide 101: Functions in R  ####
 
 ImputeNAsWithMean = function(dataset){        
   
@@ -958,7 +947,7 @@ str(CMP_subset_imputed)
 
 
 #=================================================-
-#### Slide 104: Exercise 4  ####
+#### Slide 103: Exercise 4  ####
 
 
 
